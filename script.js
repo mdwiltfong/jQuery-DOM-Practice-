@@ -23,3 +23,15 @@ $('ol').append('<li>The puppy is also in a cup! WOW</li>')
 Empty the aside and put a paragraph in it apologizing for the list’s existence. */
 $('aside').children().remove()
 $('aside').append('<p>').text('Oh man that list was bad')
+/*When you change the numbers in the three inputs on the bottom, the background 
+color of the body should change to match whatever the three values in the inputs are. */
+
+$('.form-control').on('change',function(){
+let red= $('.form-control').eq(0).val();
+let green=$('.form-control').eq(1).val();
+let blue=$('.form-control').eq(2).val();
+console.log(red,green,blue)
+$('body').css('background-color',`rgb(${red},${green},${blue})`)
+
+
+})
