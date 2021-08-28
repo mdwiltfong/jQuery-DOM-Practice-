@@ -19,3 +19,7 @@ $('#title').css('font-size',`${Math.floor(Math.random()*100)}`)
 //Add an item to the list; it can say whatever you want.
 
 $('ol').append('<li>The puppy is also in a cup! WOW</li>')
+/*Scratch that; the list is silly. 
+Empty the aside and put a paragraph in it apologizing for the list’s existence. */
+$('aside').children().remove()
+$('aside').append('<p>').text('Oh man that list was bad')
