@@ -32,6 +32,10 @@ let green=$('.form-control').eq(1).val();
 let blue=$('.form-control').eq(2).val();
 console.log(red,green,blue)
 $('body').css('background-color',`rgb(${red},${green},${blue})`)
+})
 
+//Add an event listener so that when you click on the image, it is removed from the DOM.
 
+$('img').on('click',function(){
+    $(this).remove()
 })

@@ -6,5 +6,5 @@
 1. Set the font size of the title to be a random pixel size from 0 to 100.[x]
 1. Add an item to the list; it can say whatever you want.[x]
 1. Scratch that; the list is silly. Empty the aside and put a paragraph in it apologizing for the list’s existence.[x]
-1. When you change the numbers in the three inputs on the bottom, the background color of the body should change to match whatever the three values in the inputs are.
+1. When you change the numbers in the three inputs on the bottom, the background color of the body should change to match whatever the three values in the inputs are.[x]
 1. Add an event listener so that when you click on the image, it is removed from the DOM.
