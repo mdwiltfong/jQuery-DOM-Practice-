@@ -21,8 +21,7 @@ $('#title').css('font-size',`${Math.floor(Math.random()*100)}`)
 $('ol').append('<li>The puppy is also in a cup! WOW</li>')
 /*Scratch that; the list is silly. 
 Empty the aside and put a paragraph in it apologizing for the list’s existence. */
-$('aside').children().remove()
-$('aside').append('<p>').text('Oh man that list was bad')
+$('aside').empty().append('<p>').text('Oh man that list was bad')
 /*When you change the numbers in the three inputs on the bottom, the background 
 color of the body should change to match whatever the three values in the inputs are. */
 
